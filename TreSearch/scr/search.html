@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="search.css">
+    <title>TreSearch - Search Results</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="logo" onclick="goToHome()">TreSearch</div>
+            <div class="search-bar">
+                <input type="text" class="search-input" id="searchInput" placeholder="Search the web...">
+                <button class="search-btn" onclick="performSearch()">Search</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="results-info" id="resultsInfo"></div>
+        <div class="results-container" id="resultsContainer">
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="#" class="footer-link">Help</a>
+            <a href="#" class="footer-link">Privacy</a>
+            <a href="#" class="footer-link">Terms</a>
+        </div>
+    </footer>
+
+    <script src="search.js"></script>
+</body>
+</html>
